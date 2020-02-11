@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin:0px;
+				padding: 0px;
+			}
+			body{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			.header{
+				width: 100%;
+				height: 150px;
+				/*background-color: bisque;*/
+			}
+			.header img{
+				margin-top:40px;
+				margin-left: 80px;
+			}
+			.header ul{
+				list-style: none;
+				float: right;
+				margin-top: 60px;
+				margin-right: 80px;
+			}
+			.header ul li{
+				float: left;
+				margin-left: 30px;
+				font-weight: bold;
+				color: white;
+			}
+			.middle{
+				position: relative;
+				width: 100%;
+				height: 500px;
+				/*background-color: burlywood;*/
+			}
+			.middle img{
+				position: absolute;
+				margin-top:250px;
+				margin-left:900px;
+			}
+			.middle a{
+				display: inline-block;
+				width: 110px;
+				height: 50px;
+				background-color: white;
+				position: absolute;
+				top: 400px;
+				border-radius: 7px;
+			}
+			.a1{
+				right: 320px;
+				background: url(img/appstore.png);
+				background-size: contain;
+			}
+			.a2{
+				right: 180px;
+				background: url(img/android.png);
+				background-size: contain;
+			}
+			a.a3{
+				right: 100px;
+				width:50px;
+				height: 50px;
+				background: url(img/erweima.png);
+				background-size: contain;
+			}
+			
+			.footer{
+				width: 100%;
+				height: 150px;
+				/*background-color: cornflowerblue;*/
+			}
+			.footer p{
+				color: white;
+				text-align: center;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			p.p1{
+				margin-bottom: 20px;
+			}
+			video{
+				position: absolute;
+				height: 100%;
+				/*width: 100%;*/
+				z-index:-1;
+				object-fit: cover;
+			}
+		</style>
+	</head>
+	<body>
+			<video " src="//s3.bytecdn.cn/aweme/resource/web/static/image/index/tvc-v2_30097df.mp4" 
+				autoplay="autoplay" loop="loop" muted="" data-object-fit="" data-autoplay="">抱歉，您的浏览器不支持内嵌视频
+	          </video>
+	         <!--<video src="img/douyin.mp4" autoplay="autoplay" loop="loop"></video>
+-->		<div class="header">
+			<img src="img/logo.png" alt="" />
+			<ul>
+				<li>开放平台</li>
+				<li>视频上传</li>
+				<li>抖音特效师</li>
+				<li>抖音音乐人</li>
+				<li>机构认证</li>
+				<li>企业认证</li>
+			</ul>
+		</div>
+		<div class="middle">
+			<img src="img/wenben.png" alt="" />
+			<a href="#" class="a1"> </a>
+			<a href="#" class="a2"> </a>
+			<a href="#" class="a3"> </a>
+		</div>
+		<div class="footer">
+			<p class="p1">| 音乐 |用户服务协议 | 隐私政策 | 账号找回 | 联系我们 | 广告投放 |</p>
+			<p>2019 © 抖音  | 京ICP备16016397号-3 | 北京微播视界科技有限公司 |  京B2-20170846</p>
+			<p>中国互联网举报中心 | 网络文化许可证-京网文-（2016）2282-264号 | 违法和不良信息举报：010-83434212 | 举报邮箱：jubao@douyin.com</p>
+			<p><span><img src="img/gongan.png"/></span>京公网安备 11010802023605号   |  地址 : 北京市海淀区知春路51号4层408 </p>
+		</div>
+	</body>
+</html>
